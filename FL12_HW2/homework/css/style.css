@@ -1,0 +1,141 @@
+.tm-nav-item-link:hover{
+	background-color: lightskyblue;
+	color: #fff;
+}
+
+.tm-banner{
+	background: linear-gradient(to right, lightskyblue, burlywood)
+}
+
+.tm-banner-inner{
+	background: white
+}
+
+.tm-banner-text{
+	animation:move 3s;
+	-webkit-animation:move 3s;
+}
+
+.tm-banner-text{
+	text-shadow:5px 3px 3px #333;
+}
+
+@keyframes move{
+	from{
+		margin-left:200px;
+	}
+	to{
+		margin-right:0px;
+	}
+}
+
+.flex-item{
+	float:right;
+	margin:0 0 0 0;
+}
+
+.flex-2-col h2{
+	text-align:center;
+}
+.flex-2-col{
+	display:flex;
+	align-items:center;
+}
+
+.tm-box-bg-title:hover{
+	background-color: lightgrey;
+	color: lightskyblue;
+}
+
+.heading h2{
+	text-align: center;
+	color: lightskyblue;
+}
+
+.padding-medium ol{
+	list-style-type: lower-alpha;
+}
+
+.heading li:hover::before{
+	content: ">";
+}
+.text:after{
+	content:"new";
+	color:red;
+	font-size:10px;
+	font-weight:20px;
+	vertical-align: top;
+}
+
+.blocks p:nth-child(3) {
+	word-spacing: 10px;
+	letter-spacing: 5px;
+	font-style: italic;
+}
+
+.blocks {
+	display:inline-grid;
+}
+
+.box-work:nth-child(odd){
+	background-color: lightskyblue;
+}
+.box p{
+	font-style: italic;
+}
+
+.box p:first-letter{
+	font-weight: bold; ;
+	font-size: 150% ;
+}
+
+.tm-section-description p{
+	line-height: 30px;
+	text-indent: 25px;
+}
+
+section,
+  #home,
+  .tm-sidebar {
+    box-shadow: 0 0.9px 1em rgba(61, 55, 61, 0.7);
+  }
+
+#contact_name:focus,
+#contact_email:focus,
+#contact_subject:focus,
+{
+	color: #55595c;
+	background-color: lightskyblue;
+}
+
+#contact input{
+	border-top:none;
+	border-right:none;
+	border-left:none;
+}
+
+#contact textarea {
+    border: 1px solid lightskyblue;
+    background-size: 3%;
+    background: url(../img/email-icon.png) right 10px bottom 10px no-repeat;
+  }
+
+input:hover{
+	background-color: lightskyblue;
+}
+
+section::before {
+   content: "";
+   border-right: 45px solid transparent;
+   border-top: 45px solid lightskyblue;
+  }
+
+.submit-btn {
+	border-color: lightskyblue;
+	background-color: #fff;
+	color: lightskyblue;
+	float: right;
+	height: 50px;
+	width: 100px;
+	font-size: 14px;
+}
